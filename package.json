@@ -1,0 +1,33 @@
+{
+  "name": "gun-tingo",
+  "version": "0.1.0",
+  "description": "A TingoDB key:value adapter for Gunjs",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmangani/gun-tingo.git"
+  },
+  "keywords": [
+    "mongodb",
+    "tingodb",
+    "key:value",
+    "gun",
+    "gunjs",
+    "adapter"
+  ],
+  "author": "lmangani",
+  "license": "MIT",
+  "scripts": {
+    "test": "flint test ./gun-tingo.js --opt=./flint-opt.js",
+    "profile": "flint profile ./gun-tingo.js --opt=./flint-opt.js --skip-small --skip-medium"
+  },
+  "bugs": {
+    "url": "https://github.com/lmangani/gun-tingo/issues"
+  },
+  "homepage": "https://github.com/lmangani/gun-tingo#readme",
+  "dependencies": {
+    "gun-flint": "^0.0",
+    "tingodb": "^0.5.1",
+    "mongojs": "^2.4.0"
+  }
+}
