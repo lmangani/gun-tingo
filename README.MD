@@ -12,8 +12,7 @@ A key:value TingoDB adapter for GunJS.
 PROOF OF CONCEPT. DO NOT USE THIS.
 
 ### Credits
-This Gun hack is made possible by the awesome work of [Spencer Jones](https://github.com/sjones6) and the GunDB community.
-For anything serious, please refer to [`gun-mongo`](https://github.com/sjones6/gun-mongo) and [`gun-mongo-key`](https://github.com/sjones6/gun-mongo-key) adapters.
+This Gun hack is made possible by the awesome work of [Mark Nadal](https://github.com/amark), [Spencer Jones](https://github.com/sjones6) and the GunDB community. For anything serious, please refer to [`gun-mongo`](https://github.com/sjones6/gun-mongo) and [`gun-mongo-key`](https://github.com/sjones6/gun-mongo-key) adapters.
 
 # Installation
 
