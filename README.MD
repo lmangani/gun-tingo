@@ -4,11 +4,15 @@ A key:value TingoDB adapter for GunJS.
 
 # Abstract
 
-`gun-tingo` stores the each graph node's key:value (along with some metadata) in a separate document. TingoDB is a API-compatible MongoDB nodejs implementation.
+`gun-tingo` stores the each graph node's key:value (along with some metadata) in a separate document.
+
+[TingoDB](https://github.com/sergeyksv/tingodb) is an embedded JavaScript in-process filesystem or in-memory database upwards compatible with MongoDB at the API level.
+
+### Warning
+PROOF OF CONCEPT. DO NOT USE THIS.
 
 ### Credits
-This Gun hack is made possible by the awesome work of [Spencer Jones](https://github.com/sjones6) and the GunDB community.
-For anything serious, please refer to [`gun-mongo`](https://github.com/sjones6/gun-mongo) and [`gun-mongo-key`](https://github.com/sjones6/gun-mongo-key) adapters.
+This Gun hack is made possible by the awesome work of [Mark Nadal](https://github.com/amark), [Spencer Jones](https://github.com/sjones6) and the GunDB community. For anything serious, please refer to [`gun-mongo`](https://github.com/sjones6/gun-mongo) and [`gun-mongo-key`](https://github.com/sjones6/gun-mongo-key) adapters.
 
 # Installation
 
