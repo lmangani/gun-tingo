@@ -1,6 +1,6 @@
 {
   "name": "gun-tingo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A TingoDB key:value adapter for Gunjs",
   "main": "index.js",
   "repository": {

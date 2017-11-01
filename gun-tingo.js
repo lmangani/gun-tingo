@@ -1,5 +1,5 @@
 const {KeyValAdapter, Mixins} = require('gun-flint');
-const TingoDb = require('tingodb')().Db;
+const TingoDB = require('tingodb')().Db;
 
 function getCollection(keyField) {
     return keyField ? keyField.substr(0, 2).replace(/\W/, '_') : 'gun';
